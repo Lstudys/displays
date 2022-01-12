@@ -8,6 +8,7 @@
 
 <template>
     <el-table
+     @row-click="handle1"
       :data="tableData"
       style="width: 100%">
       <el-table-column
@@ -36,6 +37,20 @@
 <script>
 export default {
     name:'Table5',
+    methods:{
+       handle1(row){
+        switch(row.date){
+          case '1':this.$router.push('./table51');break;
+          case '2':this.$router.push('./table52');break;
+          case '3':this.$router.push('./table53');break;
+          case '4':this.$router.push('./table54');break;
+          case '5':this.$router.push('./table55');break;
+          case '6':this.$router.push('./table56');break;
+          case '7':this.$router.push('./table57');break;
+          case '8':this.$router.push('./table58');break;
+        } 
+      },
+    },
     data(){
         return {
             tableData:[

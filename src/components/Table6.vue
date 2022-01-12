@@ -8,6 +8,7 @@
 
 <template>
     <el-table
+    @row-click="handle"
       :data="tableData"
       style="width: 100%">
       <el-table-column
@@ -36,8 +37,14 @@
 <script>
 export default {
     name:'Table6',
+     methods: {
+            handle(){
+              this.$router.push('./table61')
+            }
+          },
     data(){
         return {
+         
             tableData:[
                 {
                     title:'新书推介：市场营销学（第二版）——张洁梅',

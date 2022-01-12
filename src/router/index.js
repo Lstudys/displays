@@ -49,6 +49,25 @@ import Table41s from '@/pages/Table4/Table41s'
 import Table42s from '@/pages/Table4/Table42s'
 import Table43s from '@/pages/Table4/Table43s'
 
+import Table51 from '@/pages/Table5/Table51'
+import Table52 from '@/pages/Table5/Table52'
+import Table53 from '@/pages/Table5/Table53'
+import Table54 from '@/pages/Table5/Table54'
+import Table55 from '@/pages/Table5/Table55'
+import Table56 from '@/pages/Table5/Table56'
+import Table57 from '@/pages/Table5/Table57'
+import Table58 from '@/pages/Table5/Table58'
+
+import Table61 from '@/pages/Table6/Table61'
+
+import Table71 from '@/pages/Table7/Table71'
+import Table72 from '@/pages/Table7/Table72'
+import Table73 from '@/pages/Table7/Table73'
+import Table74 from '@/pages/Table7/Table74'
+import Table75 from '@/pages/Table7/Table75'
+
+import Table8 from '@/pages/Table8/Table8'
+
 const routes = [
     {
         path:'/',
@@ -225,6 +244,67 @@ const routes = [
     {
         path:'/table43s',
         component:Table43s
+    },
+
+    {
+        path:'/table51',
+        component:Table51
+    },
+    {
+        path:'/table52',
+        component:Table52
+    },
+    {
+        path:'/table53',
+        component:Table53
+    },
+    {
+        path:'/table54',
+        component:Table54
+    },
+    {
+        path:'/table55',
+        component:Table55
+    },
+    {
+        path:'/table56',
+        component:Table56
+    },
+    {
+        path:'/table57',
+        component:Table57
+    },
+    {
+        path:'/table58',
+        component:Table58
+    },
+    {
+        path:'/table61',
+        component:Table61
+    },
+    {
+        path:'/table71',
+        component:Table71
+    },
+    {
+        path:'/table72',
+        component:Table72
+    },
+    {
+        path:'/table73',
+        component:Table73
+    },
+    {
+        path:'/table74',
+        component:Table74
+    },
+    {
+        path:'/table75',
+        component:Table75
+    },
+    {
+        path:'/table8',
+        component:Table8
     },
 
 ]
